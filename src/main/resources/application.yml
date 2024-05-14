@@ -1,0 +1,22 @@
+# # =======================
+# = SPRING BOOT GENERAL
+# # =======================
+spring:
+  application:
+    name: TaskHub
+  datasource:
+    url: jdbc:mysql://localhost:3306/taskhub
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true    
+    hibernate:
+      ddl-auto: update
+#  security:
+#    basic:
+#      enabled: false
+#    enabled: false 
+#jwt:
+#  secret: secret
+#  expiration: 36000
